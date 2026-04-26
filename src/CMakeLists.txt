@@ -1,0 +1,6 @@
+add_executable(bulk_device main.c usb_descriptors.c)
+target_link_libraries(bulk_device pico_stdlib tinyusb_device tinyusb_board)
+target_include_directories(bulk_device PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+pico_add_extra_outputs(bulk_device)
+pico_enable_stdio_usb(bulk_device 0)
+pico_enable_stdio_uart(bulk_device 0)

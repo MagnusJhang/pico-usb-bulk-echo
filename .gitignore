@@ -1,0 +1,4 @@
+build*/
+gcc-arm-none-eabi/
+*.log
+__pycache__/
