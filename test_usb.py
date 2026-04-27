@@ -6,7 +6,7 @@ import random
 
 def main():
     # --- 配置參數 ---
-    pid = 0x4889
+    pid = 0x4900
     vid = 0xcafe
     test_duration = 310  # 10 分鐘
     chunk_size = 63      # 最穩定寬度
